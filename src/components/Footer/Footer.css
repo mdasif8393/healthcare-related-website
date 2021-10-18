@@ -1,0 +1,8 @@
+.footer-style{
+    background-color: rgb(32, 35, 41);
+    height: 250px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 50px;
+}
