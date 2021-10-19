@@ -14,6 +14,8 @@ import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Professor from './components/Professor/Professor';
+import AssociateProfessor from './components/AssociateProfessor/AssociateProfessor';
 
 
 
@@ -42,6 +44,14 @@ function App() {
 
           <PrivateRoute  path="/doctors/:specialist">
             <Details></Details>
+          </PrivateRoute>
+
+          <PrivateRoute path="/professor">
+            <Professor></Professor>
+          </PrivateRoute>
+
+          <PrivateRoute path="/associateProfessor">
+            <AssociateProfessor></AssociateProfessor>
           </PrivateRoute>
           
           <Route path="*">

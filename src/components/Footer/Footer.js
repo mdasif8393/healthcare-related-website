@@ -14,7 +14,7 @@ const Footer = () => {
 
             <div className="text-center" style={{color: 'white'}}>
                 <h4>About US</h4> <br/>
-                <p>We basically build website as your choice. <br/>You can find us through email, twitter, facebook, instagram</p>
+                <p>We help Doctors, Hospitals, Diagnostic centers to build their website as their choice. <br/>You can find us through email, twitter, facebook, instagram</p>
                 <span><i class="fab fa-facebook fa-2x"></i> &nbsp; &nbsp;</span>
                 <span><i class="fab fa-twitter fa-2x"></i> &nbsp; &nbsp;</span>
                 <span><i class="fab fa-instagram fa-2x"></i></span>

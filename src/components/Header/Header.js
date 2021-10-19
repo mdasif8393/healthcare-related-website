@@ -52,15 +52,24 @@ const Header = () => {
                         </li>
 
                         <li className="nav-item">
+                        <Link to ='/professor'  className="nav-link active" aria-current="page">Professor</Link>
+                        </li>
+
+                        <li className="nav-item">
+                        <Link to ='/associateProfessor'  className="nav-link active" aria-current="page">Associate Professor</Link>
+                        </li>
+
+                        <li className="nav-item">
                         <Link to ='/login'  className="nav-link active" aria-current="page">Login</Link>
                         </li>
 
-                            {user.displayName}
-                        
-                        {user.displayName&& <button onClick={logOut}>log out</button>}
-
                         
                     </ul>
+                        {
+                            user.displayName && <h6>Hello {user.displayName}</h6>
+                        }
+                        
+                        {user.displayName&& <button className="btn btn-warning"onClick={logOut}><i class="fas fa-sign-out-alt"></i> log out</button>}
                     
                     </div>
                 </div>
