@@ -1,5 +1,10 @@
 .services-card-style{
-    background-color: #F0FFF0;
+    background-color: #f2fff2;
     box-shadow: 7px 7px 7px #cfcfcf;
     border-radius: 6px;
+    border: 1px solid lightgray
+}
+
+.services-card-style:hover{
+    background-color: #f0f0f0;
 }

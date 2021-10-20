@@ -17,7 +17,7 @@ const Home = () => {
 
     console.log(services);
     return (
-        <div className="container">
+        <div className="container home-container">
             <Banner></Banner>
 
             <div className="services-container">

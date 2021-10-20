@@ -1,7 +1,9 @@
 .specialist-card-style{
     background-color: #F0FFF0;
 }
-
+.specialist-card-style:hover{
+    background-color: #f0f0f0;
+}
 .text-color{
     color: rgb(165, 42, 42);
     font-weight: bold;

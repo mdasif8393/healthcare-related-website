@@ -6,3 +6,16 @@
     grid-template-columns: repeat(2,1fr);
     padding-top: 50px;
 }
+
+@media only screen and (max-width: 800px) {
+    .footer-style{
+        background-color: rgb(32, 35, 41);
+        height: 450px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding-top: 50px;
+    }
+    
+  }

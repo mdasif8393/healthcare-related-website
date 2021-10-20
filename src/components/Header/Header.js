@@ -24,43 +24,43 @@ const Header = () => {
                         
 
                         <li className="nav-item">
-                        <Link to ='/home/'  className="nav-link active" aria-current="page">Home</Link>
+                        <Link to ='/home/'  className="nav-link active nav-hover" aria-current="page"><span className="text-success ">Home</span></Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link to ='/doctors/Child'  className="nav-link active" aria-current="page">Child</Link>
+                        <Link to ='/doctors/Child'  className="nav-link active nav-hover" aria-current="page"><span className="text-success">Child</span></Link> 
                         </li>
 
                         <li className="nav-item">
-                        <Link to ='/doctors/Dental'  className="nav-link active" aria-current="page">Dental</Link>
+                        <Link to ='/doctors/Dental'  className="nav-link active nav-hover" aria-current="page"><span className="text-success">Dental</span></Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link to ='/doctors/ENT'  className="nav-link active" aria-current="page">ENT</Link>
+                        <Link to ='/doctors/ENT'  className="nav-link active nav-hover" aria-current="page"><span className="text-success">ENT</span></Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link to ='/doctors/Eye'  className="nav-link active" aria-current="page">Eye</Link>
+                        <Link to ='/doctors/Eye'  className="nav-link active nav-hover" aria-current="page"><span className="text-success">Eye</span></Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link to ='/doctors/Cardiology'  className="nav-link active" aria-current="page">Cardiology</Link>
+                        <Link to ='/doctors/Cardiology'  className="nav-link active nav-hover" aria-current="page"><span className="text-success">Cardiology</span></Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link to ='/doctors/Orthopedic'  className="nav-link active" aria-current="page">Orthopedic</Link>
+                        <Link to ='/doctors/Orthopedic'  className="nav-link active nav-hover" aria-current="page"><span className="text-success">Orthopedic</span></Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link to ='/professor'  className="nav-link active" aria-current="page">Professor</Link>
+                        <Link to ='/professor'  className="nav-link active nav-hover" aria-current="page"><span className="text-success">Professor</span></Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link to ='/associateProfessor'  className="nav-link active" aria-current="page">Associate Professor</Link>
+                        <Link to ='/associateProfessor'  className="nav-link active nav-hover" aria-current="page"><span className="text-success">Associate Professor</span></Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link to ='/login'  className="nav-link active" aria-current="page">Login</Link>
+                        <Link to ='/login'  className="nav-link active nav-hover" aria-current="page"><span className="text-success">Login</span></Link>
                         </li>
 
                         
